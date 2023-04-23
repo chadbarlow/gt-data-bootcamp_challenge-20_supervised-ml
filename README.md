@@ -1,7 +1,7 @@
 <h1 align="left">SUPERVISED MACHINE LEARNING<br><i>Topic: Credit Risk Classification</i> </h1> 
 
 <p>This project aims to build a machine learning model that can identify the creditworthiness of borrowers using historical lending data from a peer-to-peer lending services company.</p>
-
+ 
 ## Methodology
 1. Split data into training and testing datasets using train_test_split
 2. Fit a logistic regression model using the training data 
