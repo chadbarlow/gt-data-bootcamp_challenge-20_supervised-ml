@@ -13,5 +13,4 @@ The logistic regression model predicts both healthy loans (0) and high-risk loan
 ## Limitations and Further Development
 - The model's accuracy, precision, and recall scores may not be optimal for real-world applications. Investigate alternative classification algorithms to improve model performance.
 - The dataset may not be representative of all borrowers or loan situations. Collect additional data to create a more representative dataset.
-- Perform feature engineering to identify the most important features for credit risk prediction.
-- Conduct hyperparameter tuning to optimize the logistic regression model.
+- Perform feature engineering (e.g. PCA Analysis) to identify the most important features for credit risk prediction.
