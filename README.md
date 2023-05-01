@@ -5,12 +5,12 @@
 ## Methodology
 1. Split data into training and testing datasets using train_test_split
 2. Fit a logistic regression model using the training data 
+3. Resample imbalanced data
 3. Forecast credit risk
 
 ## Conclusions
 The logistic regression model predicts both healthy loans (0) and high-risk loans (1) with moderate accuracy. 
 
 ## Limitations and Further Development
-- The model's accuracy, precision, and recall scores may not be optimal for real-world applications. Investigate alternative classification algorithms to improve model performance.
-- The dataset may not be representative of all borrowers or loan situations. Collect additional data to create a more representative dataset.
 - Perform feature engineering (e.g. PCA Analysis) to identify the most important features for credit risk prediction.
+- Oversampling helped improve the performance of our model on the minority class. Other resampling techniques, such as under-sampling the majority class or using a combination of over- and under-sampling, might be able to improve the performance even more.
