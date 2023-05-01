@@ -48,4 +48,4 @@ The choice of model depends on the priority of the financial institution. If the
 
 If it's more important to minimize false positives (i.e., healthy loans incorrectly classified as high-risk), then the first model, which has higher precision for high-risk loans, might be preferable. However, this comes at the cost of missing some high-risk loans.
 
-In general, given the high costs associated with approving high-risk loans, the second model (with oversampling) might be a better choice as it is more conservative and better at catching high-risk loans.
+**In my opinion, given the high costs associated with approving high-risk loans, the second model (with oversampling) might be a better choice as it is more conservative and better at catching high-risk loans.**
