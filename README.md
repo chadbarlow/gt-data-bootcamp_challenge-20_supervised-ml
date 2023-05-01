@@ -9,7 +9,7 @@
 3. Forecast credit risk
 
 ## Conclusions
-See [report.md](https://github.com/chadbarlow/gt-data-bootcamp_challenge-20_supervised-ml/blob/main/report.md)
+See [project-report.md](https://github.com/chadbarlow/gt-data-bootcamp_challenge-20_supervised-ml/blob/main/project-report.md)
 
 ## Limitations and Further Development
 - Perform feature engineering (e.g. PCA Analysis) to identify the most important features for credit risk prediction.
