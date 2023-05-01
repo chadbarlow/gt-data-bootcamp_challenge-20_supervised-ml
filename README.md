@@ -9,7 +9,7 @@
 3. Forecast credit risk
 
 ## Conclusions
-The logistic regression model predicts both healthy loans (0) and high-risk loans (1) with moderate accuracy. 
+See file [report.md]([url](https://github.com/chadbarlow/gt-data-bootcamp_challenge-20_supervised-ml/blob/main/report.md))
 
 ## Limitations and Further Development
 - Perform feature engineering (e.g. PCA Analysis) to identify the most important features for credit risk prediction.
