@@ -42,7 +42,13 @@ Two machine learning models were built as part of this analysis: one with the or
 
 ## Summary
 
-Both models performed well, with high accuracy, precision, recall, and F1-scores for both classes. However, the second model, which used oversampling to balance the classes, performed slightly better in terms of identifying high-risk loans (recall for high-risk loans was 0.99 compared to 0.91 in the first model). The choice of model depends on the priority of the financial institution. If the priority is to minimize false negatives (i.e., high-risk loans incorrectly classified as healthy), then the second model is preferable due to its higher recall for high-risk loans. However, this comes at the cost of slightly lower precision, meaning it might classify a few more healthy loans as high-risk. If it's more important to minimize false positives (i.e., healthy loans incorrectly classified as high-risk), then the first model, which has higher precision for high-risk loans, might be preferable. However, this comes at the cost of missing some high-risk loans. **However, given the high costs associated with approving high-risk loans, the second model (with oversampling) might be a better choice as it is more conservative and better at catching high-risk loans.**
+The choice of model depends on the priority of the financial institution. 
+
+If the priority is to minimize false negatives (i.e., high-risk loans incorrectly classified as healthy), then the second model is preferable due to its higher recall for high-risk loans. However, this comes at the cost of slightly lower precision, meaning it might classify a few more healthy loans as high-risk. 
+
+If it's more important to minimize false positives (i.e., healthy loans incorrectly classified as high-risk), then the first model, which has higher precision for high-risk loans, might be preferable. However, this comes at the cost of missing some high-risk loans. 
+
+**Generally speaking, given the high costs associated with approving high-risk loans, the second model (with oversampling) might be a better choice as it is more conservative and better at catching high-risk loans.**
 
 ## Limitations and Further Development
 - Perform feature engineering (e.g. PCA Analysis) to identify the most important features for credit risk prediction.
