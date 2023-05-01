@@ -1,14 +1,18 @@
 <h1 align="left">SUPERVISED MACHINE LEARNING<br><i>Credit Risk Classification Report</i> </h1> 
 
-## Overview
+## Overview of the Analysis
 
-- **Objective**  
-The purpose of this analysis was to build machine learning models to predict whether a loan is high risk or healthy based on financial data. The aim was to assist financial institutions in making more informed decisions when approving loans, minimizing the risk of defaults. 
+- **Explain the purpose of the analysis.**  
+The purpose of this analysis was to build machine learning models to predict whether a loan is high risk or healthy based on financial data. The aim was to assist financial institutions in making more informed decisions when approving loans, minimizing the risk of defaults.
 
+- **Explain what financial information the data was on, and what you needed to predict.**  
 The dataset contained detailed financial information including loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The target variable was a binary label indicating whether a loan was high risk ('1') or healthy ('0').
 
-- **Method**  
-The original data was highly imbalanced, with a significantly larger number of healthy loans compared to high-risk loans. We discovered the imbalance with `value_counts`. To address the issue, we performed data resampling using the `RandomOverSampler` method from the `imbalanced-learn` library. Two machine learning models were built as part of this analysis: one with the original, imbalanced data and another with the oversampled data. Both models used logistic regression.
+- **Provide basic information about the variables you were trying to predict (e.g., `value_counts`).**  
+The original data was highly imbalanced, with a significantly larger number of healthy loans compared to high-risk loans. We discovered the imbalance with `value_counts`. To address the issue, we performed data resampling using the `RandomOverSampler` method from the `imbalanced-learn` library.
+
+- **Describe the stages of the machine learning process you went through as part of this analysis.**  
+Two machine learning models were built as part of this analysis: one with the original, imbalanced data and another with the oversampled data. Both models used logistic regression.
 
 ## Results
 
